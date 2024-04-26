@@ -33,7 +33,7 @@ Person:
 
 IPL (InterestPersonLink):
   - Get all connections: writes out all the connections made between a person, interest and link.
-  - Get person by id: lets the user type in the id of a person and get the specific information from that id.
+  - Get person by id: lets the user type in the id of a person and get the specific information from that id, if that person has connections.
   - Connect interest and links to a person: lets the user connect links and interest to a specific person by entering the persons id, the interests id and the links id.
   - Get all interests for a person: lets the user get all the interests from a person by typing in the id for the person.
   - Get all links for a person: lets the user get all the links from a person have by typing in the id for the person.
