@@ -31,7 +31,7 @@ Person:
   }
   where string can be changed to to the name and phonenumber the user want for that person.
 
-  IPL (InterestPersonLink):
+IPL (InterestPersonLink):
   - Get all connections: writes out all the connections made between a person, interest and link.
   - Get person by id: lets the user type in the id of a person and get the specific information from that id.
   - Connect interest and links to a person: lets the user connect links and interest to a specific person by entering the persons id, the interests id and the links id.
