@@ -29,12 +29,12 @@ namespace SUT23_Labb3_API.Services
             }
         }
 
-        [HttpGet("{personIid:int} Get Person by id:")]
-        public async Task<ActionResult<Person>> GetSingle(int personId)
+        [HttpGet("{id:int} Get Person by id:")]
+        public async Task<ActionResult<Person>> GetSingle(int id)
         {
             try
             {
-                var result = await _person.GetSpecific(personId);
+                var result = await _person.GetSpecific(id);
                 if (result == null)
                 {
                     return NotFound();
